@@ -1,0 +1,59 @@
+@media screen and (min-width: 571px) and (max-width: 766px){
+    body {
+        /*background-color: red;*/
+    }
+    figure>img{
+        width: 70%;
+        display: block;
+	    margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 570px){
+    figure>img{
+        width: 100%;
+    }
+}
+.clearfix:after {
+    clear: both;
+    display: table;
+}
+
+body {
+    margin: 2% 5%;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 4px solid #7d97ad;
+}
+
+h2 {
+    text-align: right;
+}
+
+h3 {
+    color: #7d97ad;
+}
+
+.right {
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+img {
+    width: 100%;
+}
+
+container-1 {
+    width: 100%;
+}
+
+figure {
+    text-align: center;
+}
