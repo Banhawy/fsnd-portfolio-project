@@ -1,4 +1,4 @@
-@media screen and (min-width: 571px) and (max-width: 766px){
+@media screen and (min-width: 532px) and (max-width: 766px){
     body {
         /*background-color: red;*/
     }
@@ -9,7 +9,10 @@
     }
 }
 
-@media screen and (max-width: 570px){
+@media screen and (max-width: 531px){
+    .left {
+        margin-left: 77%;
+    }
     figure>img{
         width: 100%;
     }
@@ -18,6 +21,9 @@
 @media screen and (max-width: 418px){
     h1,h2 {
         text-align: center !important;
+    }
+    .left {
+        margin-left: 38%;
     }
 }
 .clearfix:after {
