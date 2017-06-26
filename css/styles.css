@@ -56,7 +56,7 @@ h4 {
     font-size: x-large;
 }
 
-h5 {
+p {
     word-wrap: break-word;
 }
 
@@ -96,9 +96,6 @@ img {
 
 .hero {
     position: relative;
-    height: 400px;
-    background-image: url("http://www.narolainfotech.com/web/wp-content/uploads/sites/3/2017/06/important-things-to-consider-for-web-development.jpg");
-    background-size: cover;
 }
 
 .hero-caption {
@@ -115,7 +112,7 @@ img {
     font-size: large;
 }
 
-.hero-caption h3 {
+.hero-caption p {
     color: black;
     font-style: italic;
     font-size: large;
@@ -133,7 +130,7 @@ figure {
 }
 
 figure:hover {
-    background-color: #EEE;
+    background-color: #eee;
     cursor: pointer;
 }
 
@@ -143,4 +140,20 @@ a h4 {
 
 a:hover {
     color: #2d3c49;
+}
+
+/*FOOTER*/
+.center {
+    /*margin: 0 auto;
+    display: block;*/
+    text-align: center;
+}
+
+.social-icon{
+    display: inline-block;
+
+}
+
+.fa {
+    color: #7d97ad;
 }

@@ -1,6 +1,7 @@
 $(document).ready(function () {
     //Hide projects
     $('.col-sm-4').hide();
+    $('.social-icon').hide();
 
     //Hide Hero Banner and slide off screen
     $(".hero").hide().animate({
@@ -14,6 +15,10 @@ $(document).ready(function () {
         $('.col-sm-4').first().show("fast", function showNext() {
             $(this).next().show("fast", showNext);
         });
+        $('.social-icon').first().show("fast", function showNext() {
+            $(this).next().show("fast", showNext);
+        });
     });
+    // $('.col-sm-4').show();
 
 });
