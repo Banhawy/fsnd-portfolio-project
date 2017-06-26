@@ -144,16 +144,19 @@ a:hover {
 
 /*FOOTER*/
 .center {
-    /*margin: 0 auto;
-    display: block;*/
     text-align: center;
 }
 
 .social-icon{
     display: inline-block;
+    margin: 0 1%;
 
 }
 
 .fa {
     color: #7d97ad;
+}
+
+.fa:hover{
+    color: #02b3e4;
 }
