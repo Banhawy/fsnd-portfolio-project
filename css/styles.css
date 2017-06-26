@@ -19,7 +19,7 @@
     h1 {
         text-align: center;
     }
-    h2 {
+    .right h2 {
         margin-right: 12%;
     }
     .left {
@@ -29,6 +29,11 @@
 
 body {
     margin: 2% 5%;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+section {
+    margin: 4% 0;
 }
 
 hr {
@@ -38,12 +43,23 @@ hr {
     border-top: 4px solid #7d97ad;
 }
 
-h2 {
+.right h2 {
     text-align: right;
+    font-size: x-large;
 }
 
 h3 {
     color: #7d97ad;
+    font-size: xx-large;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+h5 {
+    word-wrap: break-word;
 }
 
 figure {
@@ -65,6 +81,38 @@ img {
 
 .left {
     float: left;
+}
+
+.left img {
+    width: 100px;
+    height: 100px;
+}
+
+.hero {
+    position: relative;
+    height: 350px;
+    background-image: url("http://www.narolainfotech.com/web/wp-content/uploads/sites/3/2017/06/important-things-to-consider-for-web-development.jpg");
+    background-size: cover;
+}
+
+.hero-caption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(249, 249, 249, 0.5);
+    width: 100%;
+    padding: 0 2%;
+}
+
+.hero-caption h2 {
+    color: #093b48;
+    font-weight: bold;
+    font-size: large;
+}
+
+.hero-caption h3 {
+    color: black;
+    font-style: italic;
+    font-size: large;
 }
 
 .container-fluid {
